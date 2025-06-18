@@ -1,0 +1,19 @@
+/* src/ui/RatingStars.css */
+.rating-stars {
+  display: inline-block;
+  font-size: 2em; /* Size of the stars */
+  cursor: pointer;
+}
+
+.rating-stars .star-on {
+  color: #ffd700; /* Gold color for active stars */
+}
+
+.rating-stars .star-off {
+  color: #ccc; /* Grey color for inactive stars */
+}
+
+/* Optional: Add a transition for a smoother hover effect */
+.rating-stars span {
+  transition: color 0.2s ease-in-out;
+}
